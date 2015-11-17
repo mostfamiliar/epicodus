@@ -6,62 +6,56 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.11.3.js"></script>
     <script src="js/scripts.js"></script>
-
     <title>Level 2 Placement Test!</title>
   </head>
 
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-12">
-          <div class="banner">
-           <h1>Ping-Pong</h1>
-         </div>
-         <div class="spacer">
-
-        </div>
-        </div>
-        <div class="col-md-3">
-            <div class="sidebar">
-              <h2> About Ping Pong</h2>
-              <h3 class ="yellow">
-                <h3>Created by:</h3>
-                <p>Torrence Stratton </p>
-                <h3>GitHub Username/URL</h3>
-                <p>mostfamiliar</p>
-                <h3>Level 2 Test for:</h3>
-                <p>Java</p>
-              </h3>
+            <div class="col-md-12">
+              <div class="banner">
+                <h1>Ping-Pong</h1>
+             </div>
+             <div class="spacer">
+             </div>
             </div>
-    </div>
-  <div class="col-md-9">
-      <div class="main">
+          <div id="content">
+              <div class="col-md-3">
+                  <div class="sidebar">
+                    <h3> About Ping Pong</h2>
+                      <h4 class="creamfont">Created by:</h4>
+                      <p class="whitefont">Torrence Stratton</p>
+                      <h4 class="creamfont">GitHub Username/URL</h4>
+                      <p><a href="http://www.github.com/">mostfamiliar</a></p>
+                      <h4 class="creamfont">Level 2 Test for:</h4>
+                      <p class="whitefont">Java</p>
+                 </div>
+              </div>
+              <div class="col-md-9">
+               <div class="main">
+                <h2>Let's Play! </h2>
+                  <h4>Rules</h4>
+                  <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+                    <ol>
+                      <li>Numbers divisible by 3 become "ping"</li>
+                      <li>Numbers divisible by 5 become "pong"</li>
+                      <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+                    </ol>
+                  <form class="form-inline">
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Enter your number here:</label>
+                      <input type="text" class="form-control" id="usernumber" placeholder="User Number">
+                    </div>
 
-      <h2>Let's Play! </h2>
-      <p>Rules</p>
-      <p>Ping Pong will count up to your number from 1 with the following exceptions:
-        <ol>
-          <li>Numbers divisible by 3 become "ping"</li>
-          <li>Numbers divisible by 5 become "pong"</li>
-          <li>Numbers divisible by 3 and 5 become "pingpong"</li>
-        </ol>
-  <form id ="pingpong">
-  <div class="form-group">
+                    <button type="submit" class="btn btn-default">Ping pong!</button>
+                  </form>
 
-    <label for="exampleInputEmail1">Enter your number here:</label>
-    <input type="text" class="form-control" id="usernumber" placeholder="User Number">
-  </div>
-
-  <button type="submit" class="btn btn-default">Ping pong!</button>
-</form>
-
-  <ul class="output">
-  </ul>
-
-    </div>
-  </div>
-</div>
-</div>
-
-  </body>
+                  <ul class="output">
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+     </div>
+   </body>
 </html>

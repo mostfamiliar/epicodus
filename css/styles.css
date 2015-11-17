@@ -1,11 +1,9 @@
-html,body,.container-fluid
+html,body, .container-fluid
 {
     height:100%;
     background-color: #e6e5e5;
 }
-.col-md-12 {
-  padding: 0px;
-}
+
 
 h1 {
   margin: 0px;
@@ -13,7 +11,26 @@ h1 {
 }
 
 h3 {
-  color: #e2eea3;
+  font-weight: bold;
+}
+
+h4.creamfont {
+  color: #f9e5d2;
+  font-size: 18px;
+}
+
+p.whitefont {
+  color: #ffffff;
+}
+
+.col-md-12 {
+  padding: 0px;
+}
+
+.col-md-3 {
+  padding: 0px;
+  height: 100vh;
+
 }
 
 .banner {
@@ -36,8 +53,8 @@ h3 {
 }
 
 .row {
+  padding: 0px;
   height: 100%;
-  padding: none;
 }
 
 .main {

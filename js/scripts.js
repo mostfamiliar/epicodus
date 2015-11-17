@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $("form#pingpong").submit(function(event) {
+  $("form.form-inline").submit(function(event) {
     $("ul").empty();
     var number = parseInt($("input#usernumber").val());
 
