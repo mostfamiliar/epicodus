@@ -44,3 +44,7 @@ h3 {
   padding-top: 30px;
   padding-left: 30px;
 }
+
+ul.output {
+  padding-top: 10px;
+}
