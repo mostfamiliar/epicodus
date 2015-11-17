@@ -20,4 +20,3 @@ Install ping-pong by cloning this repository
 ***
 
 MIT License. Copyright 2015 Epicodus
-# ping-pong
