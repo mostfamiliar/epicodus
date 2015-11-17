@@ -34,9 +34,9 @@ p.whitefont {
 }
 
 .banner {
-  padding-top: 50px;
+  padding-top: 75px;
   background-color: #f9e5d2;
-  height: 150px;
+  height: 200px;
   text-align: center;
 }
 
@@ -64,4 +64,9 @@ p.whitefont {
 
 ul.output {
   padding-top: 10px;
+}
+
+.btn-default {
+  color: #000;
+  background-color: #b3b3b3;
 }
