@@ -4,7 +4,6 @@ html,body, .container-fluid
     background-color: #e6e5e5;
 }
 
-
 h1 {
   margin: 0px;
   font-size: 42px;
@@ -14,21 +13,21 @@ h3 {
   font-weight: bold;
 }
 
-h4.creamfont {
+.creamfont {
   color: #f9e5d2;
   font-size: 18px;
 }
 
-p.whitefont {
+.whitefont {
   color: #ffffff;
 }
 
 .col-md-12 {
-  padding: 0px;
+  padding: 0;
 }
 
 .col-md-3 {
-  padding: 0px;
+  padding: 0;
   height: 100vh;
 
 }
@@ -53,7 +52,7 @@ p.whitefont {
 }
 
 .row {
-  padding: 0px;
+  padding: 0;
   height: 100%;
 }
 
@@ -62,7 +61,7 @@ p.whitefont {
   padding-left: 30px;
 }
 
-ul.output {
+output {
   padding-top: 10px;
 }
 
